@@ -143,15 +143,19 @@ export const resumes: Resume[] = [
     jobDescription: string;
   
   }) =>
-    `You are an expert in ATS (Applicant Tracking System) and resume analysis.
-    Please analyze and rate this resume and suggest how to improve it.
-    The rating can be low if the resume is bad.
-    Be thorough and detailed. Don't be afraid to point out any mistakes or areas for improvement.
-    If there is a lot to improve, don't hesitate to give low scores. This is to help the user to improve their resume.
-    If available, use the job description for the job user is applying to to give more detailed feedback.
-    If provided, take the job description into consideration.
-    The job title is: ${jobTitle}
-    The job description is: ${jobDescription}
-    Provide the feedback using the following format: ${AIResponseFormat}
-    Return the analysis as a JSON object, without any other text and without the backticks.
-    Do not include any other text or comments.`;
+    `Vous êtes un expert en ATS (Applicant Tracking System) et en analyse de CV.
+    Veuillez analyser et évaluer ce CV et suggérer des moyens de l'améliorer.
+    IMPORTANT : Toutes vos réponses, suggestions et commentaires doivent être en français.
+    La note peut être basse si le CV est mauvais.
+    Soyez minutieux et détaillé. N'ayez pas peur de signaler les erreurs ou les points à améliorer.
+    S'il y a beaucoup de choses à améliorer, n'hésitez pas à donner des notes basses. Cela a pour but d'aider l'utilisateur à améliorer son CV.
+    Si elle est disponible, utilisez la description de l'emploi auquel l'utilisateur postule pour donner des commentaires plus détaillés.
+    Si elle est fournie, tenez compte de la description du poste.
+    Le titre du poste est : ${jobTitle}
+    La description du poste est : ${jobDescription}
+    Fournissez le retour d'information en utilisant le format suivant : ${AIResponseFormat}
+    Renvoyer l'analyse sous la forme d'un objet JSON, sans aucun autre texte et sans les barres obliques.
+    Ne pas inclure d'autres textes ou commentaires.
+    RÉPONDEZ UNIQUEMENT EN FRANÇAIS.` ;
+
+
