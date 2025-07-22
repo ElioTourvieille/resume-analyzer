@@ -146,6 +146,7 @@ export const resumes: Resume[] = [
     `Vous êtes un expert en ATS (Applicant Tracking System) et en analyse de CV.
     Veuillez analyser et évaluer ce CV et suggérer des moyens de l'améliorer.
     IMPORTANT : Toutes vos réponses, suggestions et commentaires doivent être en français.
+    CONTEXTE TEMPOREL : Nous sommes actuellement en 2025. Les expériences professionnelles datant de 2024-2025 sont donc valides et actuelles.
     La note peut être basse si le CV est mauvais.
     Soyez minutieux et détaillé. N'ayez pas peur de signaler les erreurs ou les points à améliorer.
     S'il y a beaucoup de choses à améliorer, n'hésitez pas à donner des notes basses. Cela a pour but d'aider l'utilisateur à améliorer son CV.
